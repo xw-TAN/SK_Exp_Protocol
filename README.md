@@ -12,18 +12,14 @@ This program synchronously starts the Vicon/Nexus, Bertec/Treadmill and Exoskele
 
 
 ### Procedures
-(1) Configure and enable the Nexus UDP and the Bertec TCP function;
-
-(2) Run this program and wait for a start signal from robot via a TCP connection to trigger a synchronized start of all devices.
-
+(1) Configure and enable the Nexus UDP and the Bertec TCP function;  
+(2) Run this program and wait for a start signal from robot via a TCP connection to trigger a synchronized start of all devices.  
 (3) The program will terminate automatically when a termination condition is satisfied or once receiving a STOP signal from Robot.
 
 
 ### Check Items
-(1) Check port number of TCP and UDP connections;
-
-(2) Check the content of Nexus `Trail Description`;
-
+(1) Check port number of TCP and UDP connections;  
+(2) Check the content of Nexus `Trail Description`;  
 (3) Check the variable values of `PSpeed` and `PSlope`;
 
 
@@ -36,20 +32,15 @@ This program synchronously starts the Vicon/Nexus (connected to Noraxon/Ultium),
 
 
 ### Procedures
-(1) Configure and enable the Nexus UDP and the Bertec TCP function;
-
-(2) Connect the sync cables from Noraxon/sEMG to Lock Lab, and then set  the Noraxon MR software into Waiting Mode;
-
-(3) Run this program and wait for a start signal from robot via a TCP connection to trigger a synchronized start of all devices.
-
+(1) Configure and enable the Nexus UDP and the Bertec TCP function;  
+(2) Connect the sync cables from Noraxon/sEMG to Lock Lab, and then set  the Noraxon MR software into Waiting Mode;  
+(3) Run this program and wait for a start signal from robot via a TCP connection to trigger a synchronized start of all devices.  
 (4) The program will terminate automatically when a termination condition is satisfied or once receiving a STOP signal from Robot.
 
 
 ### Check Items
-(1) Check port number of TCP and UDP connections;
-
-(2) Check the content of Nexus `Trail Description`;
-
+(1) Check port number of TCP and UDP connections;  
+(2) Check the content of Nexus `Trail Description`;  
 (3) Check the variable values of `PSpeed` and `PSlope`;
 
 
